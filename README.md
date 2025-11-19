@@ -11,6 +11,8 @@ A modern, professional website for EH Auto Repair featuring a stunning black and
   - Paint
   - Paint Correction
   - Cut & Buff
+  - **Insurance Information**: Prominently displays that you work with all insurance companies
+- **Testimonials Section**: Features 6 customer reviews with 5-star ratings showcasing your excellence
 - **Gallery Section**: Visual showcase of completed work
 - **Contact Section**: Complete contact information including:
   - Phone number

@@ -85,6 +85,14 @@ document.querySelectorAll('.gallery-item').forEach((item, index) => {
     observer.observe(item);
 });
 
+// Observe testimonial cards
+document.querySelectorAll('.testimonial-card').forEach((card, index) => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(50px)';
+    card.style.transition = `all 0.6s ease ${index * 0.1}s`;
+    observer.observe(card);
+});
+
 // Observe contact cards
 document.querySelectorAll('.contact-card').forEach((card, index) => {
     card.style.opacity = '0';
@@ -92,6 +100,15 @@ document.querySelectorAll('.contact-card').forEach((card, index) => {
     card.style.transition = `all 0.6s ease ${index * 0.1}s`;
     observer.observe(card);
 });
+
+// Observe insurance section
+const insuranceSection = document.querySelector('.insurance-section');
+if (insuranceSection) {
+    insuranceSection.style.opacity = '0';
+    insuranceSection.style.transform = 'translateY(50px)';
+    insuranceSection.style.transition = 'all 0.8s ease';
+    observer.observe(insuranceSection);
+}
 
 // ==================== ACTIVE NAV LINK ON SCROLL ====================
 const sections = document.querySelectorAll('section[id]');
